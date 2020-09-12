@@ -830,6 +830,7 @@ color: #FFFFFF;
 }
 
 .category{
+    width: 402.75px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -845,27 +846,242 @@ color: #FFFFFF;
 }
 
 .category li{
-    padding: 5px;
+    padding: 0 5px 0 5px;
     height: 50px;
-    margin: 5px;
+    margin: 0 5px 0 5px;
 }
 
 .search{ 
     height: 53px;
-    
+    width: 337px;
     box-sizing: border-box;
     border-radius: 40px;
     border: 1px solid #2C2C2C;
 }
 
-.search input{ 
+
+input[type="text"],
+input[type="text"]:focus   
+{
+    font-size: 11px;
+    line-height: 13px;
+    color: #616161; 
     height: 53px;
     background-color: rgba(0, 0, 0, 0);
     box-sizing: border-box;
     border:0;
+    background: transparent;
+    border: none;
+    outline-width: 0;
+}
+
+.search_example{
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 .input-group-text{
     border: 0;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.menu_icon{
+    width: 62px;
+    height:54px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.menu_icon:hover,
+.menu_icon:focus{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.box_icon{
+    background-image: url(../img/box.svg);
+}
+
+.box_icon:hover,
+.box_icon:focus{
+    background-image: url(../img/box_hover.svg);
+}
+
+.baseball_icon{
+    background-image: url(../img/baseball.svg);
+}
+
+.baseball_icon:hover,
+.baseball_icon:focus{
+    background-image: url(../img/baseball_hover.svg);
+}
+
+.football_icon{
+    background-image: url(../img/football.svg);
+}
+
+.football_icon:hover,
+.football_icon:focus{
+    background-image: url(../img/football_hover.svg);
+}
+
+.hockey_icon{
+    background-image: url(../img/hockey.svg);
+}
+
+.hockey_icon:hover,
+.hockey_icon:focus{
+    background-image: url(../img/hockey_hover.svg);
+}
+
+.basketball_icon{
+    background-image: url(../img/baseball.svg);
+}
+
+.basketball_icon:hover,
+.basketball_icon:focus{
+    background-image: url(../img/baseball_hover.svg);
+}
+
+.buy_ticket_block{
+  padding-top:5px;
+}
+
+.buy_ticket{
+    padding: 15px 86px;
+    width: 258px;
+    height: 47px;
+    border: 1px solid #EDC268;
+    color: #EDC268;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 10px #EDC268);
+    border-radius: 30px;
+    background: transparent;
+}
+
+.upcoming_tournaments_header_title{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 61px;
+    color: #EDC268;
+    display: inline-block;
+}
+
+.upcoming_tournaments_header_sorted_by{
+    position: relative;
+    top: 16px;
+    float: right;
+    text-align: right;
+}
+
+.upcoming_tournaments_filter{
+    height:120px;
+}
+
+.upcoming_tournaments_slider{
+    width: 326px;
+    height: 53px;
+    border: 1px solid #2C2C2C;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 38px 11px 0px 16px;
+}
+
+.weight{
+    font-weight: bold;
+}
+
+.all_tournaments{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tournaments{
+  
+}
+
+.tournament {
+    background: #1A1A1A;
+}
+
+.nearest{
+    background-image: url(../img/nearest.svg);
+    background-repeat: no-repeat;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #5F5F5F;
+    padding: 22px 0 0 8px;
+    background-position: left center;
+}
+
+.nearest_hover{
+    background-image: url(../img/nearest_hover.svg);
+    background-repeat: no-repeat;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #EDC268;
+    padding: 22px 0 0 8px;
+    background-position: left center;
+}
+
+.txt{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.bl{
+    display: block;
+    background-image: url(../img/bl.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #5F5F5F;
+    height: 47px;
+    width: 47px;
+}
+
+.bl_{
+    display: block;
+    background-image: url(../img/bl_.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #EDC268;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+}
+
+.winners{
+    /*height: 582px;*/
+  }
+  
+  .winners_header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .winners_item{
+    width: 258px;
+    height: 360px;
+    
 }
