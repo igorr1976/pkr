@@ -1084,8 +1084,7 @@ input[type="email"]:focus
   
   .winners_item{
     width: 258px;
-    height: 360px;
-    
+    height: 360px;    
 }
 
 .faq{
@@ -1265,5 +1264,5 @@ input[type=email]{
 }
 
 .footer{
-    border-top: 1px solid #2C2C2C;                
+    border: 1px solid #2C2C2C;                
 }
