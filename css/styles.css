@@ -414,8 +414,6 @@ textarea {
 
   body{
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;  
     line-height: 1.2;
     color:#fff;
@@ -462,8 +460,6 @@ textarea {
 
 .offsent{
     width: 214px;
-    font-style: normal;
-    font-weight: 200;
     font-size: 35px;
     line-height: 43px;
     color: #FFFFFF;
@@ -477,7 +473,6 @@ textarea {
 .step{
     background-image: url(../img/step.png);
     background-repeat: no-repeat;
-    font-style: normal;
     font-weight: bold;
     font-size: 11px;
     line-height: 13px;
@@ -497,7 +492,6 @@ textarea {
 
 .step_info{
     display: block;
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 160%;
@@ -515,7 +509,6 @@ textarea {
 }
 
 .page_title{
-    font-style: normal;
     font-weight: 200;
     font-size: 50px;
     line-height: 61px;
@@ -537,7 +530,6 @@ textarea {
 .card_item{
     width: 258px;
     height: 474px;
-    
 }
 
 .card_item_img_block{
@@ -594,14 +586,6 @@ textarea {
     color: #FFFFFF;
     width:45%;
     display:inline-block;
-}
-
-.card_players_img{
-
-}
-
-.card_price_img{
-
 }
 
 .card_players_data{
@@ -694,7 +678,6 @@ textarea {
     border: none;
     background: url(../img/create_new_tournament.png) no-repeat top left;
     padding: 2px 8px;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
@@ -706,14 +689,12 @@ textarea {
 
 .sort_btn{
     color:#fff;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
 }
 
 .all_sport_cards_header_title{
-    font-style: normal;
     font-weight: 200;
     font-size: 50px;
     line-height: 61px;
@@ -777,33 +758,26 @@ textarea {
     height: 30px;
     padding: 15 0 0 0;
     margin: 0;
-    list-style: none;
-    
+    list-style: none;    
     -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: row; 
     flex-direction: row;
 }
 
 .alphabet_label{
     font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
 }
 
 .alphabet li {
     padding: 5px;
     height: 50px;
     margin: 5px;
-    
 }
+
 .alphabet_char {
     line-height: 50px;
     color: white;
@@ -835,13 +809,7 @@ color: #FFFFFF;
     margin: 0;
     list-style: none;
     -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: row; 
     flex-direction: row;
 }
 
@@ -858,7 +826,6 @@ color: #FFFFFF;
     border-radius: 40px;
     border: 1px solid #2C2C2C;
 }
-
 
 input[type="text"],
 input[type="text"]:focus,
@@ -975,7 +942,6 @@ input[type="email"]:focus
 }
 
 .upcoming_tournaments_header_title{
-    font-style: normal;
     font-weight: 200;
     font-size: 50px;
     line-height: 61px;
@@ -1013,10 +979,6 @@ input[type="email"]:focus
     line-height: 150%;
     text-align: center;
     color: #FFFFFF;
-}
-
-.tournaments{
-  
 }
 
 .tournament {
@@ -1072,10 +1034,6 @@ input[type="email"]:focus
     width: 47px;
     border-radius: 50%;
 }
-
-.winners{
-    /*height: 582px;*/
-  }
   
   .winners_header{
     display: flex;
@@ -1109,7 +1067,6 @@ input[type="email"]:focus
     padding-left:30px;
     border-bottom: 1px solid #2C2C2C;
 }
-
 
 .faq_item[aria-expanded=true]{
     background-image: url(../img/faq_item_opened.svg);
@@ -1187,8 +1144,7 @@ input[type="email"]:focus
 }
 
 textarea,
-textarea:focus      
-{
+textarea:focus{
     font-size: 11px;
     line-height: 13px;
     color: #616161; 
