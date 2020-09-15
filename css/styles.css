@@ -624,8 +624,14 @@ textarea {
     background: #131313;
     box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.95);
     border-radius: 20px;
-    /*background-image: url(../img/bg_harry.png);
-    background-repeat: no-repeat;*/
+    background-image: url(../img/harry_bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.harry_body{
+    padding: 91px 206px;
 }
 
 .harry{
@@ -634,14 +640,17 @@ textarea {
 
 .harry_title{
     width: 727px;
-    font-style: normal;
+    height: 96px;
     font-weight: bold;
     font-size: 32px;
     line-height: 150%;
     text-align: center;
     color: #EDC268;
-    margin: 0 auto;
-    padding-top:45px;
+}
+
+.a_link,.a_link:hover{
+   color:#fff;
+   font-weight: bold;
 }
 
 .harry_info{
@@ -653,38 +662,37 @@ textarea {
     text-align: center; 
     color: #FFFFFF;
     margin: 0 auto;
-    padding-top:5px;
+    padding-top:20px;
 }
 
 .harry_block_create{
-    padding-top:15px;
+    padding-top:50px;
 }
 
-.select_tournament{
-    border: none;
-    background: url(../img/select_tournament.png) no-repeat top left;
-    padding: 27px 8px;
-    width: 248px;
-    height: 73px;
-    font-style: normal;
-    font-weight: 600;
+.tournament_btn{
+    padding: 14px 30px;
+    height: 47px;
+    border: 0.5px solid #EDC268;
+    box-sizing: border-box;
+    border-radius: 30px;
     font-size: 14px;
     line-height: 17px;
-    text-transform: uppercase;  
-    color: #000000;
-}
-
-.create_new_tournament{
-    border: none;
-    background: url(../img/create_new_tournament.png) no-repeat top left;
-    padding: 2px 8px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     color: #EDC268;
-    height: 48px;
-    width: 279px;
+    background: transparent;
+    margin:0 15px 0 15px;
+}
+
+.tournament_btn:hover{
+    padding: 14px 30px;
+    height: 47px;
+    background: #EDC268;
+    box-shadow: 0px 0px 14px #EDC268;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .sort_btn{
@@ -1220,5 +1228,5 @@ input[type=email]{
 }
 
 .footer{
-    border: 1px solid #2C2C2C;                
+    border-top: 1px solid #2C2C2C;                
 }
