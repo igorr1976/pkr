@@ -693,6 +693,7 @@ textarea {
     line-height: 17px;
     text-transform: uppercase;
     color: #000000;
+    text-decoration: none;
 }
 
 .sort_btn{
@@ -944,6 +945,17 @@ input[type="email"]:focus
     border: 1px solid #EDC268;
     color: #EDC268;
     box-sizing: border-box;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.buy_ticket:hover{
+    padding: 15px 86px;
+    width: 258px;
+    height: 47px;
+    border: 1px solid #EDC268;
+    color: #EDC268;
+    box-sizing: border-box;
     filter: drop-shadow(0px 0px 10px #EDC268);
     border-radius: 30px;
     background: transparent;
@@ -987,10 +999,15 @@ input[type="email"]:focus
     line-height: 150%;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .tournament {
     background: #1A1A1A;
+}
+
+.tournament:hover {
+    cursor: pointer;
 }
 
 .nearest{
@@ -999,24 +1016,34 @@ input[type="email"]:focus
     font-size: 11px;
     text-transform: uppercase;
     color: #5F5F5F;
-    padding: 22px 0 0 8px;
-    background-position: left center;
+    padding: 19px 0 0 28px;
+    background-position-x: 22px;
+    background-position-y: 10px;
+    width:10%;
 }
 
-.nearest_hover{
+.tournament:hover .nearest{
     background-image: url(../img/nearest_hover.svg);
     background-repeat: no-repeat;
     font-size: 11px;
     text-transform: uppercase;
     color: #EDC268;
-    padding: 22px 0 0 8px;
-    background-position: left center;
-}
+    padding: 19px 0 0 28px;
+    background-position-x: 22px;
+    background-position-y: 10px;}
 
 .txt{
     font-size: 16px;
     color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin: auto;    
 }
+
+.tournament:hover .txt{
+    font-weight: 900;
+} 
 
 .bl{
     display: block;
@@ -1030,7 +1057,7 @@ input[type="email"]:focus
     width: 47px;
 }
 
-.bl_{
+.tournament:hover .bl{
     display: block;
     background-image: url(../img/bl_.svg);
     background-repeat: no-repeat;
